@@ -1,0 +1,21 @@
+.home-container{
+    width: 96%;
+    margin: auto;
+}
+
+.container{
+    background-color: #252634 ;
+    padding: 20px;
+}
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

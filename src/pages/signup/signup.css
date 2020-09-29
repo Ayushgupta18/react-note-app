@@ -1,0 +1,17 @@
+.form{
+    text-align: center;
+    background-color: #252634 ;
+    width: 400px;
+    height: 350px;
+    position:fixed; 
+    top: calc(50% - 150px);
+    left: calc(50% - 200px); 
+}
+
+.form input{
+    width: 80%;
+    background-color: #2e2f3e;
+    color: white;
+    padding: 4px;
+    margin: 5px;
+}

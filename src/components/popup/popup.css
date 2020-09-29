@@ -1,0 +1,17 @@
+.popup {
+    background-color: #252634;
+    padding: 12px;
+    width: 400px;
+    height: 300px;
+    position:fixed; 
+    top: calc(50% - 150px);
+    left: calc(50% - 200px); 
+  }
+.footer{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+.footer button{
+  margin:2px;
+}
