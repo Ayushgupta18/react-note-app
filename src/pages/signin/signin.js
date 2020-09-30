@@ -2,6 +2,7 @@ import React from 'react';
 import './signin.css';
 import {Link,useHistory,Redirect} from 'react-router-dom'
 
+
 export default function Singnin(props) {
     const history=useHistory();
     const [formData,setFormData] = React.useState({username:"", password:""}) 
@@ -14,7 +15,7 @@ export default function Singnin(props) {
 
     const handleSubmit = (e)=>{
         e.preventDefault();
-        fetch(' http://localhost:8080/api/auth/signin',
+        fetch(`${process.env.REACT_APP_URI}/api/auth/signin`,
         {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },

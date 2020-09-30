@@ -6,7 +6,7 @@ export default function Card_navbar(props) {
 
     const handleTrash =()=>{
         const id=props.id
-        fetch('http://localhost:8080/api/user/deletenote/'+id, {
+        fetch(`${process.env.REACT_APP_URI}/api/user/deletenote/${id}`, {
                 method: 'PATCH',
                 headers: {'Content-Type': 'application/json','x-access-token':localStorage.getItem('token')},
             })

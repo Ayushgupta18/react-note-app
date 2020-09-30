@@ -13,7 +13,7 @@ export default function Popup(props) {
         e.preventDefault();
         const id=props.popupData.id;
         if(!id){
-            fetch('http://localhost:8080/api/user/addnote', {
+            fetch(`${process.env.REACT_APP_URI}/api/user/addnote`, {
                 method: 'put',
                 headers: {'Content-Type': 'application/json','x-access-token':localStorage.getItem('token')},
                 body:JSON.stringify({
@@ -31,7 +31,7 @@ export default function Popup(props) {
                 }); 
         }
         else{
-            fetch('http://localhost:8080/api/user/modifynote/'+id, {
+            fetch(`${process.env.REACT_APP_URI}/api/user/modifynote/${id}`, {
                 method: 'PATCH',
                 headers: {'Content-Type': 'application/json','x-access-token':localStorage.getItem('token')},
                 body:JSON.stringify({
