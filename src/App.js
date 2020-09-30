@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './App.css';
 import {Switch, Route } from 'react-router-dom';
 import Home from './pages/home/home'
@@ -6,6 +6,12 @@ import Signin from './pages/signin/signin'
 import Signup from './pages/signup/signup'
 
 function App() {
+  const [user,setUser] = useState(null);
+
+   const fillUser = (userobject)=>{
+    setUser(userobject);
+  }
+  
   return (
     <div className="App">
       {/* {<Home/>} */}
@@ -14,10 +20,10 @@ function App() {
           <Signup/>
         </Route>
         <Route path="/signin">
-            <Signin/>
+            <Signin fillUser={fillUser}/>
         </Route>
         <Route path="/">
-            <Home/>
+            <Home user={user} fillUser={fillUser}/>
         </Route>   
       </Switch> 
     </div>
