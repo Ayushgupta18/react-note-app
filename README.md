@@ -5,6 +5,14 @@
 ![Screenshot from 2020-10-01 14-20-02](https://user-images.githubusercontent.com/60380782/94788519-4dab3680-03f1-11eb-9524-2c8de93e283f.png)
 
 
+INSTRUCTIONS TO VIEW TRY LIVE PROJECT :
+1) Go to backend link first and wait for a minute to get backend active.
+2) Go to the frontend link and feel free to browse the project.
+
+Live project link :- https://codesandbox.io/s/fdqtz
+Backend Link :- https://codesandbox.io/s/dawn-thunder-exo5z
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
