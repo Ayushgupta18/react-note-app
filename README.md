@@ -1,3 +1,10 @@
+![Screenshot from 2020-10-01 14-19-48](https://user-images.githubusercontent.com/60380782/94788494-42f0a180-03f1-11eb-9960-cd0d15da3001.png)
+
+![Screenshot from 2020-10-01 14-19-55](https://user-images.githubusercontent.com/60380782/94788512-497f1900-03f1-11eb-971c-17d0dc4bc442.png)
+
+![Screenshot from 2020-10-01 14-20-02](https://user-images.githubusercontent.com/60380782/94788519-4dab3680-03f1-11eb-9524-2c8de93e283f.png)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
